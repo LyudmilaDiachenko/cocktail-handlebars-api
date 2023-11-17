@@ -7,9 +7,8 @@
     box-sizing: border-box;
 }
 .card-list{
-    width: 23%;
+    width: 60%;
     height: auto;
-    margin-right: 2%;
     margin-bottom: 5%;
 }
 .text-container{
@@ -20,11 +19,18 @@
     padding: 20px 25px 0;  
 }
 .text-title{
-    color: #FFF;
-    height: 20%;
-    font-size: 16px;
-    font-weight: 600;
+    color: #fff;
+    background-color: #222222a8;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
     margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    bottom: -6px;
 }
 .text-description{
     color: gray;
@@ -48,14 +54,15 @@
     font-weight: 600;
 }
 .cards{
+    flex-wrap: wrap;
     width: 70%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .card-img{
     width: 100%;
-    height: 180px;
-    border-radius: 25px 25px 0px 0px;
     object-fit: cover;
+    position: relative;
 }
